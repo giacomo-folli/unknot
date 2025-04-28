@@ -16,13 +16,14 @@ def generate_templates(template: str):
     j = 1
     for week in data["weeks"]:
         for prompt in week["prompts"]:
+            page_number = (j - 1) * 7 + i
             Generator.generate_template(
                 template,
                 mantra=week["mantra"],
                 theme=week["theme"],
                 free=week["free"],
                 prompt=prompt,
-                num="00",
+                num=page_number,
                 output_path=f"parsed/week-{j}-day-{i}.html",
             )
 
