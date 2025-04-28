@@ -46,6 +46,21 @@
       border-bottom: 2px solid #e9e9e7;
     }
 
+    .theme-title {
+      padding: 8px 0;
+      margin-bottom: 10px;
+      font-weight: 400;
+      font-size: 14px;
+      /* color: #37352f00; */
+      color: #9b9a97;
+    }
+
+    .section-description {
+      font-size: 16px;
+      color: #9b9a97;
+      margin-bottom: 12px;
+    }
+
     .writing-area {
       height: 35px;
       border-bottom: 1px solid #eaeaea;
@@ -91,20 +106,15 @@
     .header {
       width: 100%;
       display: flex;
-      justify-content: space-between;
+      justify-content: end;
+      align-items: center;
       margin-bottom: 10px;
-      padding-bottom: 10px;
-      border-bottom: 2px solid #e9e9e7;
-    }
-
-    .section-description {
-      font-size: 16px;
-      color: #9b9a97;
-      margin-bottom: 12px;
+      /* padding-bottom: 10px; */
+      /* border-bottom: 2px solid #e9e9e7; */
     }
 
     .date {
-      text-align: right;
+      /* text-align: right; */
       font-size: 14px;
       color: #9b9a97;
     }
@@ -113,19 +123,21 @@
 
 <body>
   <div class="diary-page">
-    <div class="header" style="display: flex; flex-direction: row">
-      <div style="font-size: 16px; color: #9b9a97">Il mio Diario</div>
+    <div class="header">
+      <!-- <div style="font-size: 16px; color: #9b9a97; border: 1px solid #35332d">
+        Diario
+      </div> -->
       <div class="date">__/__/____ - n. %num%</div>
     </div>
 
     <div class="section-container">
-      <div class="section-title">%theme%</div>
+      <div class="theme-title">%theme%</div>
       <!-- <div class="section-description">Qual è il tuo focus questa settimana?</div> -->
     </div>
 
     <div class="section-container">
       <div class="section-title">%prompt%</div>
-      <!-- <div class="section-description">Rifletti sulla domanda di oggi</div> -->
+      <div class="section-description">Rifletti sulla domanda di oggi</div>
 
       <div class="main-content">
         <div class="writing-area"></div>

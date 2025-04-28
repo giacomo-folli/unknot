@@ -13,12 +13,12 @@ class Generator:
         output_path: str,
     ):
         parser = Parser(
-            template,
-            mantra,
-            theme,
-            free,
-            prompt,
-            num,
+            template_path=template,
+            mantra=mantra,
+            theme=theme,
+            free=free,
+            prompt=prompt,
+            num=num,
         )
         parsed_content = parser.parse()
 
