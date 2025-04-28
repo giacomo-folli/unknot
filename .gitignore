@@ -1,2 +1,6 @@
+lib/__pycache__
+__pycache__
 output
 parsed
+venv
+data

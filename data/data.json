@@ -2,7 +2,7 @@
   "weeks": [
     {
       "theme": "Settimana 1: Accogliere l'Imperfezione",
-      "mantra": "Mantra: \"La mia bellezza sta nelle mie imperfezioni.\"",
+      "mantra": "La mia bellezza sta nelle mie imperfezioni.",
       "prompts": [
         "In cosa oggi sono stato 'abbastanza'?",
         "Quale piccola imperfezione oggi mi ha fatto sorridere?",
@@ -10,13 +10,13 @@
         "Come sarebbe stato oggi se avessi abbassato del 10% le aspettative?",
         "Una cosa imperfetta che ha funzionato comunque?",
         "Cosa ho imparato oggi grazie a un errore?",
-        "Se potessi abbracciare una mia fragilità di oggi, quale sarebbe?",
-        "Spazio Libero: Come mi sono sentito accogliendo l'imperfezione?"
-      ]
+        "Se potessi abbracciare una mia fragilità di oggi, quale sarebbe?"
+      ],
+      "free": "Come mi sono sentito accogliendo l'imperfezione?"
     },
     {
       "theme": "Settimana 2: Liberare l'Identità dal Risultato",
-      "mantra": "Mantra: \"Valgo indipendentemente da cio che realizzo.\"",
+      "mantra": "Valgo indipendentemente da cio che realizzo.",
       "prompts": [
         "Cosa mi rende prezioso anche senza risultati?",
         "Un momento di 'essere' e non 'fare'?",
@@ -24,13 +24,13 @@
         "Chi sono oltre quello che faccio?",
         "Quale qualita interna oggi ha brillato?",
         "Cosa ho fatto solo per piacere?",
-        "Se fossi gia abbastanza, cosa cambierebbe oggi?",
-        "Spazio Libero: Sensazioni dell'essere 'basta cosi come sono'."
-      ]
+        "Se fossi gia abbastanza, cosa cambierebbe oggi?"
+      ],
+      "free": "Sensazioni dell'essere 'basta cosi come sono'."
     },
     {
       "theme": "Settimana 3: Lasciare andare il Controllo",
-      "mantra": "Mantra: \"Mi apro alla vita, anche quando non va secondo i piani.\"",
+      "mantra": "Mi apro alla vita, anche quando non va secondo i piani.",
       "prompts": [
         "Cosa oggi ho lasciato fluire?",
         "Un momento di improvvisazione riuscita?",
@@ -38,13 +38,13 @@
         "Se avessi avuto fiducia nell'imprevisto, cosa sarebbe successo?",
         "Cosa e andato storto e poi si e sistemato comunque?",
         "Una cosa lasciata andare volontariamente?",
-        "Come coltivare piu fiducia in me stesso?",
-        "Spazio Libero: Racconto di un gesto di fiducia spontanea."
-      ]
+        "Come coltivare piu fiducia in me stesso?"
+      ],
+      "free": "Racconto di un gesto di fiducia spontanea."
     },
     {
       "theme": "Settimana 4: Vedere e Nutrire i Progressi",
-      "mantra": "Mantra: \"Ogni piccolo passo e una conquista.\"",
+      "mantra": "Ogni piccolo passo e una conquista.",
       "prompts": [
         "Un piccolo progresso di oggi?",
         "Dove sono stato piu gentile con me stesso?",
@@ -52,9 +52,9 @@
         "Cosa e andato meglio rispetto a una settimana fa?",
         "Se mi vedessi con gli occhi di un amico, cosa noterei?",
         "Un risultato invisibile da celebrare?",
-        "Come mi sento pensando che sto camminando, non correndo?",
-        "Spazio Libero: Immagine o parola che rappresenta il mio cammino."
-      ]
+        "Come mi sento pensando che sto camminando, non correndo?"
+      ],
+      "free": "Immagine o parola che rappresenta il mio cammino."
     }
   ]
 }
