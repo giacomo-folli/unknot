@@ -12,8 +12,8 @@ def generate_templates(template: str):
     with open("data/data.json", "r") as file:
         data = json.load(file)
 
-    i = 0
-    j = 0
+    i = 1
+    j = 1
     for week in data["weeks"]:
         for prompt in week["prompts"]:
             Generator.generate_template(
@@ -22,6 +22,7 @@ def generate_templates(template: str):
                 theme=week["theme"],
                 free=week["free"],
                 prompt=prompt,
+                num="00",
                 output_path=f"parsed/week-{j}-day-{i}.html",
             )
 

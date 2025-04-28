@@ -10,6 +10,7 @@ if __name__ == "__main__":
         theme="Settimana 1: Accogliere l'Imperfezione",
         free="Come mi sono sentito accogliendo l'imperfezione?",
         output_path=f"parsed_test/test.html",
+        num="01",
     )
 
     templates = [f for f in listdir("parsed_test")]

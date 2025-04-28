@@ -9,6 +9,7 @@ class Generator:
         theme: str,
         free: str,
         prompt: str,
+        num: str,
         output_path: str,
     ):
         parser = Parser(
@@ -17,6 +18,7 @@ class Generator:
             theme,
             free,
             prompt,
+            num,
         )
         parsed_content = parser.parse()
 
