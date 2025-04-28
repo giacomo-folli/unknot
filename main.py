@@ -1,10 +1,9 @@
 from lib.generator import Generator
-from os import listdir
+import os
 import json
 
 
 def generate_from_template(template_path: str) -> str:
-    # Generate PDF
     return Generator.generate_pdf(template_path)
 
 
@@ -23,20 +22,30 @@ def generate_templates(template: str):
                 theme=week["theme"],
                 free=week["free"],
                 prompt=prompt,
-                num=page_number,
+                num=f"{page_number}",
                 output_path=f"parsed/week-{j}-day-{i}.html",
             )
 
             i += 1
         j += 1
-        i = 0
+        i = 1
+
+
+def clean_dir(path: str):
+    print("Cleaning temp files...")
+    [os.remove(f"parsed/{f}") for f in os.listdir(path)]
+    print("Done")
 
 
 if __name__ == "__main__":
     generate_templates("template/layout.templ")
 
-    templates = [f for f in listdir("parsed")]
+    print("Generating HTML templates...")
+    templates = [f for f in os.listdir("parsed")]
 
+    print("Generating PDFs...")
     for template in templates:
         template_path = f"parsed/{template}"
         pdf_path = generate_from_template(template_path)
+
+    clean_dir("parsed")
